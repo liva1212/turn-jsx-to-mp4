@@ -1,0 +1,21 @@
+{
+  "name": "remotion-ad-video",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Minimal Remotion project for rendering a vertical MP4",
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "render": "mkdir -p out && remotion render src/index.ts AdVideo out/video.mp4"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "remotion": "latest"
+  },
+  "devDependencies": {
+    "@remotion/cli": "latest",
+    "@types/react": "^18.2.79",
+    "@types/react-dom": "^18.2.25",
+    "typescript": "^5.6.3"
+  }
+}
